@@ -1,0 +1,5 @@
+name: StoragePlugin
+version: '${version}'
+main: ru.healthanmary.storageplugin.StoragePlugin
+api-version: '1.16'
+authors: [healthanmary]
