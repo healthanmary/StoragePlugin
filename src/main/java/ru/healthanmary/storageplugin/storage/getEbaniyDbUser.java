@@ -19,7 +19,7 @@ public class getEbaniyDbUser implements CommandExecutor {
         if (user == null) {
             sender.sendMessage("Нема");
             return true; }
-        sender.sendMessage(user.getName()+" "+user.getAge());
+        sender.sendMessage(user.getName() + " " + user.getAge());
         return true;
     }
 }

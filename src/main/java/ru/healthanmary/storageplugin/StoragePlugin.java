@@ -1,5 +1,6 @@
 package ru.healthanmary.storageplugin;
 
+import lombok.AllArgsConstructor;
 import org.bukkit.plugin.java.JavaPlugin;
 import ru.healthanmary.storageplugin.storage.MysqlStorage;
 import ru.healthanmary.storageplugin.storage.Storage;
