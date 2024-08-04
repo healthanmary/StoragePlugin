@@ -1,10 +1,8 @@
 package ru.healthanmary.storageplugin;
 
-import lombok.experimental.UtilityClass;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
 
-import java.lang.module.Configuration;
 
 public class Config {
     public static void load(FileConfiguration file) {

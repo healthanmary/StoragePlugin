@@ -18,6 +18,9 @@ repositories {
 }
 
 dependencies {
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
     // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
     implementation group: 'com.mysql', name: 'mysql-connector-j', version: '8.3.0'
     // https://mvnrepository.com/artifact/org.projectlombok/lombok

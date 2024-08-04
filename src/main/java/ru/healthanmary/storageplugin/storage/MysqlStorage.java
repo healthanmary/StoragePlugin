@@ -6,6 +6,7 @@ import ru.healthanmary.storageplugin.User;
 import java.sql.*;
 
 public class MysqlStorage implements Storage {
+                 // jdbc:mysql://hostname:port/database
     private String url = "jdbc:mysql://"+ Config.MySQL.HOST+":"+Config.MySQL.PORT+"/"+Config.MySQL.DATABASE;
 
     private Connection createConnection() throws SQLException {

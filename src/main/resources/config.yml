@@ -4,7 +4,3 @@ mysql:
   user: root
   password: password
   database: tutorial
-commands:
-  getdbuser:
-    description: Command
-    usage: /getdbuser <name>
